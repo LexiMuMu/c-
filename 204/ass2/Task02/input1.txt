@@ -1,0 +1,17 @@
+vehicles.dat
+1
+abc-001
+1
+Benz
+02/10/2010
+1052.0
+Sailor
+123 Super market street Fairy Meadow NSW 2510
+11223344
+rts110
+3
+2
+5
+2
+abc-001
+6

@@ -1,0 +1,47 @@
+After open the ddd, I set a break in the program and then run the program with "run" command.
+
+It started and display below initial number with unsorted order:
+57 34 45 94 86 21 27 48 9 36 
+
+Then I used "n" command to see how program process step by step.
+Also the same time I display the variable of smallest.
+
+
+0 34 45 94 86 21 27 48 9 36 
+There is no '0' in the array, however program count array index# 10 which value is '0' to sort with the actual array. 
+By getting that value I tried to print dataset[10].
+Since n is 10, in the loop of j, the condition set up as j<=n, which means n is going to be 10 in the loop. But the max index# should only 9. 
+And at last smallest will show 10 which should not be.
+
+In this step '57' swaped with '0', so '57' disappeared from the array.
+
+0 9 45 94 86 21 27 48 34 36 
+In this step, program found the min value of the array which is '9' and swaped '9' with '34'
+
+
+0 9 21 94 86 45 27 48 34 36 
+swaped '45' with '21'
+
+0 9 21 27 86 45 94 48 34 36 
+swaped '94' with '27'
+
+
+0 9 21 27 34 45 94 48 86 36
+swaped '86' with '34'
+
+ 
+0 9 21 27 34 36 94 48 86 45 
+swaped '45' with '36'
+
+
+0 9 21 27 34 36 45 48 86 94 
+swaped '94' with '45'
+
+0 9 21 27 34 36 45 48 86 94 
+no swap
+
+0 9 21 27 34 36 45 48 57 94 
+swaped '86'(at index#10) with '57'.
+
+
+

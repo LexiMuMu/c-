@@ -1,0 +1,5 @@
+vehicles.dat
+2
+abc-110
+6
+record.txt

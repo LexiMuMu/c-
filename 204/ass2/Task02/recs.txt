@@ -1,0 +1,12 @@
+t,one ton,Light,1000,AAA-100,Toyota,10/02/2010,03/05/2011,1034,Roadwalker,10 Smith street Wollongong NSW 2500,Roadwalker,12345678
+c,gs105,Small,Manual4,ABC-110,Ford,13/12/2010,04/01/2011,985,Butcher,23 Hole ave. Norwa NSW 2534,Butcher,12246753
+b,tds213,Mini,12,DUV-321,Benz,05/01/2011,20/04/2011,2285,Cooker,18 Mountain street West Wollongong,Cooker,21345786
+t,one ton,Light,1000,AAA-101,Toyota,10/02/2010,03/05/2011,1034,Roadwalker,10 Smith street Wollongong NSW 2500,Roadwalker,12345678
+c,gs105,Small,Manual4,ABC-111,Ford,13/12/2010,04/01/2011,985,Butcher,23 Hole ave. Norwa NSW 2534,Butcher,12246753
+b,tds213,Mini,12,DUV-322,Benz,05/01/2010,20/04/2011,2285,Cooker,18 Mountain street West Wollongong,Cooker,21345786
+t,one ton,Light,1000,AAA-102,Toyota,10/02/2010,03/05/2011,1034,Roadwalker,10 Smith street Wollongong NSW 2500,Roadwalker,12345678
+c,gs105,Small,Manual4,ABC-112,Ford,13/12/2010,04/01/2011,985,Butcher,23 Hole ave. Norwa NSW 2534,Butcher,12246753
+b,tds213,Mini,12,DUV-323,Benz,05/01/2010,20/04/2011,2285,Cooker,18 Mountain street West Wollongong,Cooker,21345786
+t,one ton,Light,1000,AAA-103,Toyota,10/02/2010,03/05/2011,1034,Roadwalker,10 Smith street Wollongong NSW 2500,Roadwalker,12345678
+c,gs105,Small,Manual4,ABC-113,Ford,13/12/2010,04/01/2011,985,Butcher,23 Hole ave. Norwa NSW 2534,Butcher,12246753
+b,tds213,Mini,12,DUV-324,Benz,05/01/2011,20/04/2011,2285,Cooker,18 Mountain street West Wollongong,Cooker,21345786

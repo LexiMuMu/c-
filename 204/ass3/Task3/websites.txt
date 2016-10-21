@@ -1,0 +1,11 @@
+Google:http://www.google.com
+Facebook:http://www.facebook.com
+UOW:http://www.uow.edu.au
+UNSW:http://www.unsw.com.au
+UOS:http://sydney.edu.au
+ANU:http://www.anu.edu.au
+IBM:http://www.ibm.com
+MICROSOFT:https://www.microsoft.com
+WIKIPEDIA:https://en.wikipedia.org/wiki/Main_Page
+
+

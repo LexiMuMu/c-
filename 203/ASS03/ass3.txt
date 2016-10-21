@@ -1,0 +1,25 @@
+********************************************************************************
+* Filename: ass3.txt
+* Name & Student No.: Yanhong Ben, 4845675
+* ASS No: 3
+* File Description: discuss the three algorithms used in this assignment 
+********************************************************************************
+
+//brief discussion of my result
+As assignment 3 required, three solutions were displayed. 
+
+Solution 1 is a Dijkstra's algorithm for a specific start and end point. It is different from standard Dijkstra's algorithm since it suppose to find the shortest path between start node and destination node instead of start from the first node. So once algorithm reached the destination node it will stop. It finds out the shortest path which length is 8.5 and path is 19->4->8->16. However, it visited most of the nodes in the graphic to find out the correct path.
+
+Solution 2 is known as a A* algorithm, which is improved based on Dijkstra's algorithm. This algorithm, I implemented it to find out the linear distance from all nodes to the destination node(16) and take it as the estimate of distance. It finds out the length of shortest path and the path are the same as the result in solution 1. But it only visited 5,20 nodes excluding the shortest path. Pretty much more efficient than solution 1.
+
+Solution 3 is a proposed improved algorithm by assignment. It begins both the source and the destination nodes together, and stops when one node is visited in the other process. It comes up with which is actually the second length of the shortest path(8.6), the path is 19->4->20->5->16. The additional nodes it visited is 1,3,8 and 15. It concludes a different answer from above two algorithms. 8.6 is not the shortest path.
+
+//relative efficiency of each of the three proposed approaches
+In solution 1, process compares and sorts out the actual edge cost, while solution 2 compares and sorts out the actual cost plus a estimate linear distance which accurate the real distance between nodes. By using solution 2, it makes the difference between each options more clearer and makes the algorithm much quicker to find out the correct path. The more accurate estimate distance is the more efficient solution 2 is. 
+
+Compare solution 1 and solution 3, definitely solution 3 is quicker than solution 1, since solution 3 start from both source and destination nodes. However, it comes up with the wrong answer, but the path is still a quiet short path just may not be the shortest one.
+
+//any problem that may arise each of them
+For solution 1, Dijkstra’s algorithm does a blind search and spends a lot of time wasting on the unnecessary nodes scanning.
+For solution 2, since it calculate and take the linear distance between two nodes as a estimate data to sort, if the search is not about linear distance but something like price, the algorithm need to be adjusted accordingly.
+For solution 3, like in this assignment, it may make the process more efficient, but it will comes up with the wrong answer. Because it stops immediately when a node was found like here node 20 which is visited in the other process, but it might be a possibility a better solution is yet behind.

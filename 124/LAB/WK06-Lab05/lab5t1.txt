@@ -1,0 +1,42 @@
+This is the initial number with unsorted order:
+value: 57 34 45 94 86 21 27 48 9 36 
+index:  0  1  2  3  4  5  6  7 8  9
+
+First to find the smallest number '9' in the array
+array[8] is the smallest number, swap it with array[0].
+value:  9 34 45 94 86 21 27 48 57 36 
+index:  0  1  2  3  4  5  6  7  8  9
+
+Then index# 0 is sorted part and continue to find the smallest# in the unsorted part which is index# 5 its value is '21'. Swap it with array[1].
+value:  9 21 45 94 86 34 27 48 57 36 
+index:  0  1  2  3  4  5  6  7  8  9
+
+same as above, array[0] and array[1] are sorted. The smallest# in the unsorted part is index# 6. Swap it with array[2]
+value:  9 21 27 94 86 34 45 48 57 36 
+index:  0  1  2  3  4  5  6  7  8  9
+
+array[0],array[1] and array[2] are sorted. The smallest# in the unsorted part is index# 5. Swap it with array[3]
+value:  9 21 27 34 86 94 45 48 57 36 
+index:  0  1  2  3  4  5  6  7  8  9
+
+array[0],array[1],array[2] and array[3] are sorted. The smallest# in the unsorted part is index# 9. Swap it with array[4]
+value:  9 21 27 34 36 94 45 48 57 86 
+index:  0  1  2  3  4  5  6  7  8  9
+
+array[0] to array[4] are sorted. The smallest# in the unsorted part is index# 6. Swap it with array[5]
+value:  9 21 27 34 36 45 94 48 57 86 
+index:  0  1  2  3  4  5  6  7  8  9
+
+array[0] to array[5] are sorted. The smallest# in the unsorted part is index# 7. Swap it with array[6]
+value:  9 21 27 34 36 45 48 94 57 86 
+index:  0  1  2  3  4  5  6  7  8  9
+
+array[0] to array[6] are sorted. The smallest# in the unsorted part is index# 8. Swap it with array[7]
+value:  9 21 27 34 36 45 48 57 94 86 
+index:  0  1  2  3  4  5  6  7  8  9
+
+array[0] to array[7] are sorted. The smallest# in the unsorted part is index# 9. Swap it with array[8]
+value:  9 21 27 34 36 45 48 57 86 94 
+index:  0  1  2  3  4  5  6  7  8  9
+
+Array sorted.

@@ -1,0 +1,7 @@
+Q1:
+
+a): create a dynamic array of n student structure array
+	student *stuptr = new student[n];
+
+b): delete dynamically allocated array I created
+	delete [] stuptr;

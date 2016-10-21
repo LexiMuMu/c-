@@ -1,0 +1,23 @@
+After open the ddd, I set a break in the program and then run the program with "run" command.
+I set it to display the 2 conditions and return values in function encrypt.
+Also I display the value of char 'ch' in the function encrypt to keep an eye on the file in and out.
+
+I used the words 'CatzZ' to test.
+
+First Letter is Capital 'C', so the condition ('A' <= ch && ch <= 'Z') shows true. And its value is 67 'C'.
+The other condition ('a' <= ch && ch <= 'z') shows false.
+
+Then I keep process the program step by step.
+The second letter is lowercase 'c', the condition  ('A' <= ch && ch <= 'Z') shows false.
+However its value still shows 67 'C'.
+Then I looked into the program. Found out the return value is not correct. 
+It should be 'ch+K' not 'A+K', otherwise its value will always be 67.
+
+After several rounds, when the time the program got into lowercase 'z', condition ('a' <= ch && ch <= 'z') shows true. But its value got into '|'(AscaII code is 124) which is not a letter.
+We suppose to encrypt within 26 letters.
+Here I found second fault. There missed two conditions to deal with the uppercase and lowercase letters+k which is bigger than the range of 26 letters.
+
+I corrected these two mistakes. And keep runing the program. After the last uppercase 'Z' is finished encrypt. There came 2 rounds showing the value of 'ch' is '\n' which should be only one time showing end of the file.
+There I found the third fault. So I add another condition to make sure cin is good.
+
+After corrected three mistakes. The program is so far so good.

@@ -1,0 +1,140 @@
+Priority queue q1 tasks: 
+user_0        3068  3 /home/user/q1/user_0/
+guest_13      1158  3 /home/guest/q1/guest_13/
+user_56        714  4 /home/user/q1/user_56/
+user_44       9089  4 /home/user/q1/user_44/
+user_34       2977  4 /home/user/q1/user_34/
+user_72       6725  5 /home/user/q1/user_72/
+user_24       6768  6 /home/user/q1/user_24/
+guest_4       1908  6 /home/guest/q1/guest_4/
+user_55        108  7 /home/user/q1/user_55/
+user_67       3076  8 /home/user/q1/user_67/
+
+Priority queue q2 tasks are: 
+user_30        957  0 /home/user/q2/user_30/
+user_52       8133  0 /home/user/q2/user_52/
+user_8        8484  1 /home/user/q2/user_8/
+user_31       7191  1 /home/user/q2/user_31/
+user_25       1997  4 /home/user/q2/user_25/
+user_11       2762  4 /home/user/q2/user_11/
+user_34       1871  5 /home/user/q2/user_34/
+guest_8       3539  6 /home/guest/q2guest_8/
+user_53       8314  6 /home/user/q2/user_53/
+user_10       5374  7 /home/user/q2/user_10/
+
+Merge q1 and q2 to a priority queue q3, q3 tasks are: 
+user_30        957  0 /home/user/q2/user_30/
+user_52       8133  0 /home/user/q2/user_52/
+user_8        8484  1 /home/user/q2/user_8/
+user_31       7191  1 /home/user/q2/user_31/
+user_0        3068  3 /home/user/q1/user_0/
+guest_13      1158  3 /home/guest/q1/guest_13/
+user_56        714  4 /home/user/q1/user_56/
+user_44       9089  4 /home/user/q1/user_44/
+user_34       2977  4 /home/user/q1/user_34/
+user_25       1997  4 /home/user/q2/user_25/
+user_11       2762  4 /home/user/q2/user_11/
+user_72       6725  5 /home/user/q1/user_72/
+user_34       1871  5 /home/user/q2/user_34/
+user_24       6768  6 /home/user/q1/user_24/
+guest_4       1908  6 /home/guest/q1/guest_4/
+guest_8       3539  6 /home/guest/q2guest_8/
+user_53       8314  6 /home/user/q2/user_53/
+user_55        108  7 /home/user/q1/user_55/
+user_10       5374  7 /home/user/q2/user_10/
+user_67       3076  8 /home/user/q1/user_67/
+
+Peek q3, the data contains : 
+user_30        957  0 /home/user/q2/user_30/
+After peek, the priority queue q3 tasks are: 
+user_30        957  0 /home/user/q2/user_30/
+user_52       8133  0 /home/user/q2/user_52/
+user_8        8484  1 /home/user/q2/user_8/
+user_31       7191  1 /home/user/q2/user_31/
+user_0        3068  3 /home/user/q1/user_0/
+guest_13      1158  3 /home/guest/q1/guest_13/
+user_56        714  4 /home/user/q1/user_56/
+user_44       9089  4 /home/user/q1/user_44/
+user_34       2977  4 /home/user/q1/user_34/
+user_25       1997  4 /home/user/q2/user_25/
+user_11       2762  4 /home/user/q2/user_11/
+user_72       6725  5 /home/user/q1/user_72/
+user_34       1871  5 /home/user/q2/user_34/
+user_24       6768  6 /home/user/q1/user_24/
+guest_4       1908  6 /home/guest/q1/guest_4/
+guest_8       3539  6 /home/guest/q2guest_8/
+user_53       8314  6 /home/user/q2/user_53/
+user_55        108  7 /home/user/q1/user_55/
+user_10       5374  7 /home/user/q2/user_10/
+user_67       3076  8 /home/user/q1/user_67/
+
+Dequeue q3, the data contains : 
+user_30        957  0 /home/user/q2/user_30/
+After dequeue, the priority queue q3 tasks are: 
+user_52       8133  0 /home/user/q2/user_52/
+user_8        8484  1 /home/user/q2/user_8/
+user_31       7191  1 /home/user/q2/user_31/
+user_0        3068  3 /home/user/q1/user_0/
+guest_13      1158  3 /home/guest/q1/guest_13/
+user_56        714  4 /home/user/q1/user_56/
+user_44       9089  4 /home/user/q1/user_44/
+user_34       2977  4 /home/user/q1/user_34/
+user_25       1997  4 /home/user/q2/user_25/
+user_11       2762  4 /home/user/q2/user_11/
+user_72       6725  5 /home/user/q1/user_72/
+user_34       1871  5 /home/user/q2/user_34/
+user_24       6768  6 /home/user/q1/user_24/
+guest_4       1908  6 /home/guest/q1/guest_4/
+guest_8       3539  6 /home/guest/q2guest_8/
+user_53       8314  6 /home/user/q2/user_53/
+user_55        108  7 /home/user/q1/user_55/
+user_10       5374  7 /home/user/q2/user_10/
+user_67       3076  8 /home/user/q1/user_67/
+
+The lowest item contains: 
+user_67       3076  8 /home/user/q1/user_67/
+After remove the lowest item, the priority queue q3 tasks are:
+user_52       8133  0 /home/user/q2/user_52/
+user_8        8484  1 /home/user/q2/user_8/
+user_31       7191  1 /home/user/q2/user_31/
+user_0        3068  3 /home/user/q1/user_0/
+guest_13      1158  3 /home/guest/q1/guest_13/
+user_56        714  4 /home/user/q1/user_56/
+user_44       9089  4 /home/user/q1/user_44/
+user_34       2977  4 /home/user/q1/user_34/
+user_25       1997  4 /home/user/q2/user_25/
+user_11       2762  4 /home/user/q2/user_11/
+user_72       6725  5 /home/user/q1/user_72/
+user_34       1871  5 /home/user/q2/user_34/
+user_24       6768  6 /home/user/q1/user_24/
+guest_4       1908  6 /home/guest/q1/guest_4/
+guest_8       3539  6 /home/guest/q2guest_8/
+user_53       8314  6 /home/user/q2/user_53/
+user_55        108  7 /home/user/q1/user_55/
+user_10       5374  7 /home/user/q2/user_10/
+
+Input a task id to find the task: 3539
+Found the task: 
+guest_8       3539  6 /home/guest/q2guest_8/
+increase the task priority by 2.
+The priority queue q3 tasks are:
+user_52       8133  0 /home/user/q2/user_52/
+user_8        8484  1 /home/user/q2/user_8/
+user_31       7191  1 /home/user/q2/user_31/
+user_0        3068  3 /home/user/q1/user_0/
+guest_13      1158  3 /home/guest/q1/guest_13/
+user_56        714  4 /home/user/q1/user_56/
+user_44       9089  4 /home/user/q1/user_44/
+user_34       2977  4 /home/user/q1/user_34/
+user_25       1997  4 /home/user/q2/user_25/
+user_11       2762  4 /home/user/q2/user_11/
+guest_8       3539  4 /home/guest/q2guest_8/
+user_72       6725  5 /home/user/q1/user_72/
+user_34       1871  5 /home/user/q2/user_34/
+user_24       6768  6 /home/user/q1/user_24/
+guest_4       1908  6 /home/guest/q1/guest_4/
+user_53       8314  6 /home/user/q2/user_53/
+user_55        108  7 /home/user/q1/user_55/
+user_10       5374  7 /home/user/q2/user_10/
+
+
